@@ -1,6 +1,9 @@
 const doSomething = function () {
-  const caret = document.createElement("span");
-  caret.className = "dropdown-caret";
+  const caret = document.createElement("img");
+  caret.id = "deverse__play-icon";
+  caret.srcset =
+    "https://img.icons8.com/ios-glyphs/2x/play-button-circled--v2.png";
+  caret.style = "height: 20px; width: 20px; margin-left: 5px";
 
   const newElement = document.createElement("a");
   newElement.className = "btn btn-primary float-left ml-2";
