@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Sample Web Extension",
+  "version": "0.0.1",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [{
+    "matches":["https://*.github.com/interviewstreet/*"],
+    "run_at": "document_idle",
+    "js": ["script.js"],
+    "css": ["style.css"]
+  }],
+  "permissions": ["webNavigation", "scripting", "tabs"]
+}
