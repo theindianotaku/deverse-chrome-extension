@@ -9,7 +9,8 @@ const doSomething = function () {
   newElement.className = "btn btn-primary float-left ml-2";
   newElement.id = "deverse__button";
   newElement.innerText = "Launch in Deverse";
-  newElement.href = "https://www.google.com";
+  newElement.href =
+    "http://34.135.226.169/?folder=%2Fhome%2Fcodepair-frontend&tkn=007";
   newElement.setAttribute("target", "_blank");
 
   newElement.appendChild(caret);
