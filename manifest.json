@@ -12,5 +12,8 @@
     "js": ["script.js"],
     "css": ["style.css"]
   }],
+  "icons": {
+    "128": "logo.png"
+  },
   "permissions": ["webNavigation", "scripting", "tabs"]
 }
